@@ -56,7 +56,7 @@ const Register = () => {
                     </a>
                 </form>
                 <p className="footer-text">
-                    ¿Ya tienes una cuenta de administrador? <Link to="/login" style={{ color: '#03e9f4' }}>Inicia sesión</Link>
+                 <Link to="/login" style={{ color: '#03e9f4' }}>Inicia sesión</Link>
                 </p>
             </div>
         </div>
