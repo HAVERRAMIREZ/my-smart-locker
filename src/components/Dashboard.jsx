@@ -17,7 +17,6 @@ const Dashboard = () => {
                             Administradores
                         </Typography>
                         <Typography variant="body1" gutterBottom>
-                            Total: 10
                         </Typography>
                         <Button variant="contained" color="secondary" component={Link} to="/administradores">
                             Ir a Administradores
@@ -31,7 +30,6 @@ const Dashboard = () => {
                             Tipos de Paquete
                         </Typography>
                         <Typography variant="body1" gutterBottom>
-                            Total: 5
                         </Typography>
                         <Button variant="contained" color="secondary" component={Link} to="/tipo_paquetes">
                             Ir a Tipos de Paquete
@@ -45,7 +43,6 @@ const Dashboard = () => {
                             Residentes
                         </Typography>
                         <Typography variant="body1" gutterBottom>
-                            Total: 20
                         </Typography>
                         <Button variant="contained" color="secondary" component={Link} to="/residentes">
                             Ir a Residentes
@@ -59,7 +56,6 @@ const Dashboard = () => {
                             Propietarios
                         </Typography>
                         <Typography variant="body1" gutterBottom>
-                            Total: 15
                         </Typography>
                         <Button variant="contained" color="secondary" component={Link} to="/propietarios">
                             Ir a Propietarios
