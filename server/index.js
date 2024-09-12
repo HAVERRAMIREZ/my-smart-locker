@@ -78,11 +78,7 @@ app.get('/api/dashboard', verifyToken, (req, res) => {
     res.send('¡Bienvenido al dashboard!');
 });
 // Datos de prueba para tipos de paquetes
-let tipoPaquetes = [
-    { id: 1, tipo: 'Pequeño' },
-    { id: 2, tipo: 'Mediano' },
-    { id: 3, tipo: 'Grande' },
-];
+
 
 // Rutas para tipos de paquetes
 app.get('/api/tipo_paquetes', (req, res) => {
